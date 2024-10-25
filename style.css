@@ -1,0 +1,153 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.nav {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+.nav a {
+    margin: 0 15px;
+    color: #ffb703;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav a:hover {
+    color: #fb8500;
+}
+
+/* Section Styles */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.content {
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 {
+    color: #f77f00;
+}
+p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+.highlight {
+    color: #ffb703;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home {
+    background-color: #1a1a1a;
+}
+.home-content h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.home-content p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin: 20px 0;
+}
+
+/* Image Section */
+.image-section {
+    margin-bottom: 20px;
+}
+.image-section img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.image-section p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffb703;
+}
+
+/* Skills and Education Section */
+.skills, .education {
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-container, .education-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px;
+}
+.skills-box, .achievements-box, .education-box {
+    background-color: #444;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills-box ul, .achievements-box ul, .education-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills-box li, .achievements-box li, .education-box li {
+    background-color: #555;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+}
+.project-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.project-title {
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #f77f00;
+}
+.project-description {
+    width: 45%;
+    background-color: #555;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
